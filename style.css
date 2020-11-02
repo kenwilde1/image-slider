@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: URW Chancery L, cursive;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.image-container {
+  border: 2px solid black;
+  width: 400px;
+  height: 200px;
+}
+
+.imageOne {
+  background: url("https://post.greatist.com/wp-content/uploads/sites/3/2020/02/325466_1100-1100x628.jpg");
+  background-size: cover;
+}
+
+.imageTwo {
+  background: url("https://eco-business.imgix.net/ebmedia/fileuploads/Feature_RightsofNature_inline2.jpg?fit=crop&h=801&ixlib=django-1.2.0&q=85&w=1200");
+  background-size: cover;
+}
+
+.imageThree {
+  background: url("https://media.springernature.com/lw630/nature-cms/uploads/collections/clean_energy_HERO-6438b2200f0a0738fc6c3448ee8c276c.jpg");
+  background-size: cover;
+}
+
+.imageFour {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCcdS8f6L5Aonc9oUP3UfD2PAPUmqF-_IBcw&usqp=CAU");
+  background-size: cover;
+}
+
+#btn-prev {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+#btn-next {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+.progress-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  margin-top: 1rem;
+  justify-content: space-evenly;
+}
+
+.progress {
+  display: flex;
+  gap: 1rem;
+}
+
+.dot {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: solid 1px #000;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.active-dot {
+  background: black;
+}
